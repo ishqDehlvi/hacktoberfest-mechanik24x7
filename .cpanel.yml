@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/smilesau/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH 
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
