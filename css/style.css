@@ -1,12 +1,8 @@
 /* Fixomiz | Auto Repair HTML Template
 
-Template Name: Fixomiz
-Author: Bold Touch
+Template Name: Mechanik24x7
+Author: Inzemamul Haq
 Version: 1.0.0
-License: copyright commercial
-Author URI: https://themeforest.net/user/bold_touch
-License URI: https://themeforest.net/user/bold_touch */
-
 /************ TABLE OF CONTENTS ***************
 1. Fonts
 2. Reset
@@ -222,7 +218,7 @@ ul,li{
 	font-size:16px;
 	line-height:20px;
 	color:#ffffff;
-	background-color: #ffc800;
+	background-color: #fb7756;
 	padding: 15px 35px;
 	font-weight: 700;
 	overflow: hidden;
@@ -549,7 +545,7 @@ img{
 
 .main-header .header-top{
 	position: relative;
-	background-color: #156f89;
+	background-color: #e74645;
 }
 
 .main-header .top-left{
@@ -698,7 +694,7 @@ img{
 }
 
 .main-header .info-box li a:hover{
-	color: #ffc800;
+	color: #800000;
 }
 
 /*=== Header Lower ===*/
