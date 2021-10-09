@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<style>
+    body{ 
+    margin:0; 
+    padding:0; 
+    text-align:center; 
+   background:linear-gradient(rgba(0,0,50,0.5),rgba(0,0,50,0.5)),url(https://steamuserimages-a.akamaihd.net/ugc/1295297714548645510/9E101B3BFDCDC901993813EA63CE2A4AE77D05CF/); 
+    background-size:cover; 
+    background-position:center; 
+    font-family:sans-serif; 
+    background-attachment: fixed;
+   } 
+    h1 {
+      text-transform: uppercase;
+      font-weight: 500;
+      }
+      h2 {
+        text-transform: uppercase;
+        font-weight: 400;
+      margin: 0 0 0 8px;
+      }
+         .title {
+      align-items: center;
+      margin-bottom: 50px;
+      color:#fff;
+      }
+   .contact-title{ 
+    margin-top:100px; 
+    color:#fff; 
+    text-transform:uppercase; 
+    transition:all 4s ease-in-out; 
+   }
+   form{ 
+    margin-top:50px; 
+    transition:all 4s ease-in-out; 
+   } 
+   .form-control
+   { 
+    width:800px; 
+    background:transparent; 
+    border:none; 
+    outline:none; 
+    border-bottom:1px solid gray; 
+    color:#fff; 
+    font-size:25px; 
+    margin-bottom:16px; 
+   } 
+   input{ 
+    height:80px; 
+   }
+   span{
+   color: #fff;
+   } 
+   
+   form .submit
+   { 
+    background:orangered;
+    border-color:transparent; 
+    color:#fff; 
+    font-size:20px; 
+    font-weight:bold; 
+    letter-spacing:2px; 
+    height:50px; 
+    margin-top:20px; 
+   } 
+   form .submit:hover
+   { 
+    background-color:red; 
+    cursor:pointer;
+    }
+</style>
+<body>
+    <div class="contact-title">
+        <h1>CONTACT US</h1>
+        <h2>We will get back to you asap!</h2>
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="contact-form-handler.php">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email ID" required><br>
+            <input name="phone" type="number" class="form-control" placeholder="Your Phone No." required><br>
+            <input name="message" type="text" class="form-control" placeholder="Message" row="5" required><br>
+        
+                <input type="submit" class="form-control submit" value="Register Now">
+        </form>
+    </div>
+
+    
+</body>
+</html>
