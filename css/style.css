@@ -665,9 +665,9 @@ img{
 	line-height: 50px;
 	height: 50px;
 	width: 50px;
-	background-color: #3f4d50;
+	background-color: #e74645;
 	border-radius: 50px;
-	color: #ffffff;
+	color: #000000;
 	text-align: center;
 }
 
@@ -675,7 +675,7 @@ img{
 	position:relative;
 	font-size:15px;
 	line-height:24px;
-	color:#3f4d50;
+	color:#e74645;;
 	font-weight:400;
 }
 
@@ -685,7 +685,7 @@ img{
 }
 
 .main-header .info-box li a{
-	color: #333333;
+	color: #fff;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -1526,7 +1526,7 @@ img{
 	display: block;
     font-size: 42px;
     line-height: 36px;
-    color: #3f4d50;
+    color: #e74645;
     font-weight: 600;
     transition: all 100ms linear;
     margin-bottom: 20px;
@@ -1581,7 +1581,7 @@ img{
 	font-weight: 400;
     font-size: 17px;
     line-height: 27px;
-    color: #8d9297;
+    color: #fff;
     margin-top: 10px;
 }
 
