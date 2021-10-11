@@ -8662,7 +8662,7 @@ img{
 }
 
 .main-footer .logo-widget .copyright a{
-	color: #ffc800;
+	color: #e74645;
 }
 
 .main-footer .logo-widget .copyright a:hover{
@@ -8673,7 +8673,7 @@ img{
 	position: relative;
 	font-size:24px;
 	font-weight:500;
-	color:#495057;
+	color:#e74645;
 	line-height: 20px;
 	margin-bottom: 30px;
 }
@@ -8741,7 +8741,7 @@ img{
 	height: 6px;
 	width: 6px;
 	content: "";
-	background-color: #ffc800;
+	background-color: #e74645;
 	border-radius: 6px;
 }
 
@@ -8783,7 +8783,7 @@ img{
 	position: absolute;
 	left: 0;
 	top: 0px;
-	color: #ffc800;
+	color: #e74645;
 	line-height: 24px;
 	font-size: 15px;
 }
