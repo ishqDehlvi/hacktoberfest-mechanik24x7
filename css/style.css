@@ -3402,6 +3402,16 @@ img{
 	border-radius: 50%;
 
 }
+.in-item p{
+	display: none;
+	color: tomato;
+}
+.in-item:hover{
+	transform: scale(1.05);
+}
+.in-item:hover p{
+	display: block;
+}
 
 .service-block .icon-box{
 	position: relative;
