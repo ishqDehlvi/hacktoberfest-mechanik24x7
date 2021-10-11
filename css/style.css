@@ -6749,11 +6749,11 @@ img{
     font-size: 90px;
     font-weight: 800;
 	letter-spacing: -.01em;
- 	color: black;
+ 	color: #fb7756;
  	text-transform: uppercase;
-	-webkit-text-fill-color: #ffffff;
+	-webkit-text-fill-color: #e94a46;
 	-webkit-text-stroke-width: 1px;
-	-webkit-text-stroke-color: #d8d1d1;
+	-webkit-text-stroke-color: #e74645;
 	text-shadow: 0 10px 10px rgba(0,0,0,0.10);
 	opacity: .50;
 }
@@ -6771,7 +6771,7 @@ img{
 	bottom: 50px;
 	text-align: center;
 	box-shadow: 0 0 30px rgba(0,0,0,0.10);
-	background-color: rgba(255,255,255,1);
+	background-color: rgba(231 70 69);
 	padding: 15px 20px;
 }
 
@@ -6788,7 +6788,7 @@ img{
 }
 
 .faq-section .image-column .caption-box h4 a{
-	color: #ffc800;
+	color: #fff;
 	display: inline-block;
 }
 
@@ -6946,7 +6946,7 @@ img{
 	-ms-transition:all 3000ms ease;
 	-o-transition:all 3000ms ease;
 	transition:all 3000ms ease;
-	background-color: #ffc800;
+	background-color: #e74645;
 }
 
 .skills .skill-item .skill-header{
@@ -6959,14 +6959,14 @@ img{
 	float:left;
 	font-size:18px;
 	line-height:30px;
-	color:#333333;
+	color:#fff;
 	font-weight:400;
 }
 
 .skills .skill-item .skill-header .skill-title .icon{
 	position: relative;
 	float: left;
-	color: #156f89;
+	color: #e74645;
 	font-size: 20px;
 	line-height: 30px;
 	margin-right: 10px;
@@ -6976,7 +6976,7 @@ img{
 	float:right;
 	font-size:18px;
 	line-height:30px;
-	color:#333333;
+	color:#fb7756;
 	font-weight:400;
 }
 
