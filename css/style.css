@@ -2743,7 +2743,7 @@ img{
     display: block;
     font-size: 48px;
     line-height: 1.2em;
-    color: #3f4d50;
+    color: white;
     font-weight: 600;
     margin-bottom: 20px;
 }
@@ -3401,6 +3401,10 @@ img{
 	content: "";
 	border-radius: 50%;
 
+}
+.service-item:hover{
+box-shadow: 0 0 20px white;
+transform: scale(1.1);
 }
 .in-item p{
 	display: none;
@@ -4859,6 +4863,8 @@ img{
 
 .work-block .inner-box:hover{
 	transform: translateY(30px);
+	box-shadow: 0 0 20px white;
+	background-color: white;
 }
 
 .work-block .count{
@@ -5123,7 +5129,7 @@ img{
 	display: block;
 	font-size: 44px;
 	line-height: 1.4em;
-	color: #495057;
+	color:white;
 	font-weight: 500;
 	margin-bottom: 20px;
 }
@@ -8756,7 +8762,8 @@ img{
 }
 
 .main-footer .list li a:hover{
-	color:#156f89;
+	color:white;
+	font-weight: bolder;
 }
 
 .main-footer .contact-widget{
@@ -8799,7 +8806,8 @@ img{
 }
 
 .main-footer .contact-info-list li a:hover{
-	color:#156f89;
+	color:white;
+	font-weight: bolder;
 }
 
 /*** 
@@ -8831,6 +8839,7 @@ img{
 .main-footer.style-two .contact-info-list li a:hover,
 .main-footer.style-two .list li a:hover{
 	color: #ffffff;
+	
 }
 
 .main-footer.style-two .contact-info-list li span{
