@@ -3411,11 +3411,9 @@ transform: scale(1.1);
 	color: tomato;
 }
 .in-item:hover{
-	transform: scale(1.05);
+	transform: scale(1.02);
 }
-.in-item:hover p{
-	display: block;
-}
+
 
 .service-block .icon-box{
 	position: relative;
@@ -11565,4 +11563,15 @@ transform: scale(1.1);
 
 .box-layout .coming-soon .content{
 	position: relative;
+}
+#closebutton2,#closebutton3,#closebutton,#closebutton4{
+	margin-left: 50%;
+	border: 2px solid white;
+	border-radius: 50%;
+	background-color: yellow;
+	display: none;
+}
+#closebutton2:hover,#closebutton3:hover,#closebutton:hover,#closebutton4:hover{
+	transform: scale(1.09);
+	background-color: tomato;
 }
