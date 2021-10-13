@@ -581,3 +581,51 @@
 	});	
 
 })(window.jQuery);
+para=document.getElementById("para1");
+para2=document.getElementById("para2");
+ para3=document.getElementById("para3");
+ para4=document.getElementById("para4");
+ btn2=document.getElementById("closebutton2");
+ btn3=document.getElementById("closebutton3");
+ btn4=document.getElementById("closebutton4");
+ btn=document.getElementById("closebutton");
+ function enlarge()
+{
+	para.style.display="block";
+	btn.style.display="block"
+	
+}
+function enlarge2()
+{
+	para2.style.display="block";
+	btn2.style.display="block"
+	
+}
+function enlarge3()
+{
+	para3.style.display="block";
+	btn3.style.display="block"
+	
+}
+function enlarge4()
+{
+	para4.style.display="block";
+	btn4.style.display="block"
+	
+}
+function closebtn2(){
+para2.style.display="none";
+btn2.style.display="none";
+}
+function closebtn3(){
+	para3.style.display="none";
+	btn3.style.display="none";
+	}
+	function closebtn4(){
+		para4.style.display="none";
+		btn4.style.display="none";
+		}
+		function closebtn(){
+			para.style.display="none";
+			btn.style.display="none";
+			}
